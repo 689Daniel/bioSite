@@ -1,0 +1,187 @@
+
+* {
+	font-family: "Noto Sans", sans-serif;
+
+body {
+	min-width: 320px;
+	max-width: 1400px;
+	margin: auto;
+	border-style: solid;
+	border-width: 0 1px 0 1px;
+}
+
+h1, h2, h3,h4 {
+	font-family: "Cactus Classical Serif";
+}
+
+h1 {
+	width: 100%;
+	padding: 3% 0 7% 0;
+	text-align: center;
+	font-size: 4.375em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+hr {
+	width: 80%;
+	border-color: #00bfff;
+}
+
+a {
+	font-family: inherit;
+	color: inherit;
+	text-decoration: inherit;
+}
+
+header {
+	background-color: #00bfff;
+	height: 100px;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+	border-bottom-color: #33ccff;
+}
+
+div.title {
+	float: left;
+	width: 69%;
+	height: 100%;
+	line-height: 100px;
+	font-family: "Playfair Display", sans-serif;
+	font-size: 80px;
+	text-align: center;
+	color: #e6faff;
+}
+
+div.navButton {
+	float: right;
+	width: 10%;
+	height; 100%;
+	line-height: 100px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: black;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+.navButton:hover {
+	background-color: #33ccff;
+}
+
+div.container {
+	min-height: 460px;
+	width: 100%:
+	text-align: center;
+}
+
+div.textBlock {
+	float: left;
+	min-height: 460px;
+	text-align: center;
+	padding: 0 10px 0 10px;
+	box-sizing: border-box;
+}
+
+.textBlock P {
+	text-align: left;
+	font-size: 1.125em;
+}
+
+.small {
+	width: 44%;
+}
+
+.medium {
+	width: 72%;
+}
+
+.large {
+	width: 100%;
+}
+
+.centerTextBlock {
+	width: 60%;
+	padding: 0 10px 0 10px;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+div.imageBlock {
+	float: left;
+	width: 28%;
+	text-align: center;
+}
+
+div.profile {
+	display: block;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 28%;
+	text-align: center;
+}
+
+img {
+	padding-top: 20px;
+}
+
+img.portrait {
+	max-height: 340px;
+}
+
+img.landscape {
+	width: 98%;
+}
+
+img.square {
+	width: 98%;
+}
+
+img.profile {
+	max-height: 500px;
+}
+
+figure {
+	width: 90%;
+	margin: 20px auto 10px auto;
+	overflow: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+figcaption {
+	height: 60px;
+}
+
+div.quoteBlock {
+	float: left;
+	width: 28%;
+	text-align: center;
+}
+
+blockquote {
+	padding-top: 25%;
+	text-indent: 0;
+	font-style: italic;
+	font-size: 2em;
+	color: #595959;
+
+}
+
+footer {
+	height: 50px;
+	background-color: #00bfff;
+	border-top-style: solid;
+	border-top-color: #33ccff;
+	border-top-width: 4px;
+}
+
+footer p {
+	float: right;
+	font-size: 1em;
+}
