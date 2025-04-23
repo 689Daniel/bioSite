@@ -31,6 +31,15 @@ hr {
 }
 
 a {
+	color: #00bfff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+navbutton a {
 	font-family: inherit;
 	color: inherit;
 	text-decoration: inherit;
@@ -73,14 +82,12 @@ div.navButton {
 }
 
 div.container {
-	min-height: 460px;
 	width: 100%:
 	text-align: center;
 }
 
 div.textBlock {
 	float: left;
-	min-height: 460px;
 	text-align: center;
 	padding: 0 10px 0 10px;
 	box-sizing: border-box;
@@ -155,13 +162,18 @@ figure {
 }
 
 figcaption {
-	height: 60px;
+	max-height: 70px;
+	padding-bottom: 4px;
 }
 
 div.quoteBlock {
 	float: left;
 	width: 28%;
 	text-align: center;
+}
+
+q {
+	quotes: "" "" "" "";
 }
 
 blockquote {
