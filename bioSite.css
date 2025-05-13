@@ -1,6 +1,7 @@
 
 * {
 	font-family: "Noto Sans", sans-serif;
+}
 
 body {
 	min-width: 320px;
@@ -67,7 +68,7 @@ div.title {
 div.navButton {
 	float: right;
 	width: 10%;
-	height; 100%;
+	height: 100%;
 	line-height: 100px;
 	border-left-style: solid;
 	border-left-width: 1px;
@@ -82,13 +83,12 @@ div.navButton {
 }
 
 div.container {
-	width: 100%:
+	width: 100%;
 	text-align: center;
 }
 
 div.textBlock {
 	float: left;
-	text-align: center;
 	padding: 0 10px 0 10px;
 	box-sizing: border-box;
 }
