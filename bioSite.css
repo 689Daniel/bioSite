@@ -1,4 +1,3 @@
-
 * {
 	font-family: "Noto Sans", sans-serif;
 }
@@ -40,7 +39,7 @@ a:hover {
 	text-decoration: underline;
 }
 
-navbutton a {
+navbutton a {/* Used for navigation links*/
 	font-family: inherit;
 	color: inherit;
 	text-decoration: inherit;
@@ -54,7 +53,7 @@ header {
 	border-bottom-color: #33ccff;
 }
 
-div.title {
+div.title {/* Used for the site title*/
 	float: left;
 	width: 69%;
 	height: 100%;
@@ -65,7 +64,7 @@ div.title {
 	color: #e6faff;
 }
 
-div.navButton {
+div.navButton {/* Used for navigation buttons*/
 	float: right;
 	width: 10%;
 	height: 100%;
@@ -82,12 +81,12 @@ div.navButton {
 	background-color: #33ccff;
 }
 
-div.container {
+div.container {/* Used to contain blocks of content*/
 	width: 100%;
 	text-align: center;
 }
 
-div.textBlock {
+div.textBlock {/* Used to contain text content of various sizes*/
 	float: left;
 	padding: 0 10px 0 10px;
 	box-sizing: border-box;
@@ -98,32 +97,32 @@ div.textBlock {
 	font-size: 1.125em;
 }
 
-.small {
+.small {/* Used for text with two figures*/
 	width: 44%;
 }
 
-.medium {
+.medium {/* Used for text with one figure*/
 	width: 72%;
 }
 
-.large {
+.large {/* Used for text with no figures*/
 	width: 100%;
 }
 
-.centerTextBlock {
+.centerTextBlock {/* Used for the text on the About page*/
 	width: 60%;
 	padding: 0 10px 0 10px;
 	margin: 0 auto 0 auto;
 	text-align: center;
 }
 
-div.imageBlock {
+div.imageBlock {/* Used for placing images next to text blocks*/
 	float: left;
 	width: 28%;
 	text-align: center;
 }
 
-div.profile {
+div.profile {/* Used for the profile picture on the About page*/
 	display: block;
 	float: none;
 	margin-left: auto;
@@ -136,6 +135,7 @@ img {
 	padding-top: 20px;
 }
 
+/*portrait, landscape, square, and profile classes are used for sizing images of various aspect ratios*/
 img.portrait {
 	max-height: 340px;
 }
@@ -166,13 +166,13 @@ figcaption {
 	padding-bottom: 4px;
 }
 
-div.quoteBlock {
+div.quoteBlock {/* Used for quoted text next to text blocks*/
 	float: left;
 	width: 28%;
 	text-align: center;
 }
 
-q {
+q {/* Removes the automatic quotation marks around quotes to make it consistent across all browsers and give manual control*/
 	quotes: "" "" "" "";
 }
 
